@@ -1,0 +1,12 @@
+export function FeaturesHero() {
+  return (
+    <section className="pt-8 md:pt-12 pb-12 px-6 md:px-12 lg:px-[122px]">
+      <div className="text-center mb-12">
+        <h1 className="text-2xl md:text-4xl font-bold text-foreground mb-3">Features</h1>
+        <p className="text-muted-foreground font-medium text-sm md:text-base max-w-2xl mx-auto">
+          Explore our comprehensive suite of tools designed to help your business grow.
+        </p>
+      </div>
+    </section>
+  )
+}
